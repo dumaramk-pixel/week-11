@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+
+    background-color: white;
+    color: black;
+
+    transition: 0.3s;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #007bff;
+    color: white;
+
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Dark Mode Style */
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
